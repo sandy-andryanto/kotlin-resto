@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_order_menu"
+        android:title="List Menu"
+        android:icon="@drawable/ic_food"/>
+    <item
+        android:id="@+id/nav_order_detail"
+        android:title="Detail Order"
+        android:icon="@drawable/ic_sales"/>
+    <item
+        android:id="@+id/nav_order_checkout"
+        android:title="Checkout"
+        android:icon="@drawable/ic_money"/>
+</menu>

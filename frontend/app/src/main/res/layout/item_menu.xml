@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginBottom="13dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingHorizontal="5dp">
+
+    <!-- Left Column (Image) -->
+    <ImageView
+        android:id="@+id/menu_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/linear_border"
+        android:contentDescription="Menu image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_home" />
+
+    <!-- Right Column (Text Info) -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="#CD5C5C"
+            android:textStyle="bold"
+            android:id="@+id/menu_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="menu_category"
+            android:textSize="15sp" />
+
+        <TextView
+            android:textColor="#FF4500"
+            android:textStyle="bold"
+            android:id="@+id/menu_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="menu_name"
+            android:textSize="15sp" />
+
+        <TextView
+            android:textColor="#2E8B57"
+            android:textStyle="bold"
+            android:id="@+id/menu_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="menu_price"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:id="@+id/starContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="2dp" />
+
+    </LinearLayout>
+</LinearLayout>
